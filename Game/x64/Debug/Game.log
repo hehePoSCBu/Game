@@ -1,0 +1,8 @@
+﻿  Application.cpp
+D:\VisualStudio\Editor\VC\Tools\MSVC\14.44.35207\include\ammintrin.h(337,14): warning C4392: “unsigned int __rmpupdate(unsigned __int64,rmp_seg *,int)”: 不正确的内部函数参数个数，应为“2”个参数
+  (编译源文件“Application.cpp”)
+  
+D:\VisualStudio\Editor\VC\Tools\MSVC\14.44.35207\include\ammintrin.h(340,14): warning C4392: “unsigned int __rmpadjust(unsigned __int64,int,int)”: 不正确的内部函数参数个数，应为“4”个参数
+  (编译源文件“Application.cpp”)
+  
+  Game.vcxproj -> C:\Users\HP\Desktop\Game\x64\Debug\Game.exe
