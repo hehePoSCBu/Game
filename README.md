@@ -1,3 +1,3 @@
 # Game
 
-This is a game.It use SDL3.
+This is a game.It use OpenGL.It use libraries:GLFW,GLAD.

@@ -1,8 +1,30 @@
-﻿  Application.cpp
-D:\VisualStudio\Editor\VC\Tools\MSVC\14.44.35207\include\ammintrin.h(337,14): warning C4392: “unsigned int __rmpupdate(unsigned __int64,rmp_seg *,int)”: 不正确的内部函数参数个数，应为“2”个参数
-  (编译源文件“Application.cpp”)
-  
-D:\VisualStudio\Editor\VC\Tools\MSVC\14.44.35207\include\ammintrin.h(340,14): warning C4392: “unsigned int __rmpadjust(unsigned __int64,int,int)”: 不正确的内部函数参数个数，应为“4”个参数
-  (编译源文件“Application.cpp”)
-  
-  Game.vcxproj -> C:\Users\HP\Desktop\Game\x64\Debug\Game.exe
+﻿  main.cpp
+LINK : warning LNK4217: 符号“strncmp”(在“ libucrtd.lib(strncmp.obj)”中定义)已由“glfw3.lib(init.obj)”(函数“_glfwParseUriList”中)导入
+LINK : warning LNK4286: 符号“strncmp”(在“libucrtd.lib(strncmp.obj)”中定义)已由“glfw3.lib(context.obj)”导入
+LINK : warning LNK4286: 符号“strncmp”(在“libucrtd.lib(strncmp.obj)”中定义)已由“glfw3.lib(input.obj)”导入
+LINK : warning LNK4286: 符号“strncmp”(在“libucrtd.lib(strncmp.obj)”中定义)已由“glfw3.lib(egl_context.obj)”导入
+LINK : warning LNK4217: 符号“free”(在“ libucrtd.lib(free.obj)”中定义)已由“glfw3.lib(init.obj)”(函数“defaultDeallocate”中)导入
+LINK : warning LNK4217: 符号“free”(在“ libucrtd.lib(free.obj)”中定义)已由“glfw3.lib(null_init.obj)”(函数“_glfwConnectNull”中)导入
+LINK : warning LNK4217: 符号“malloc”(在“ libucrtd.lib(malloc.obj)”中定义)已由“glfw3.lib(init.obj)”(函数“defaultAllocate”中)导入
+LINK : warning LNK4217: 符号“strtol”(在“ libucrtd.lib(strtox.obj)”中定义)已由“glfw3.lib(init.obj)”(函数“_glfwParseUriList”中)导入
+LINK : warning LNK4217: 符号“__stdio_common_vsprintf”(在“ libucrtd.lib(output.obj)”中定义)已由“glfw3.lib(init.obj)”(函数“_glfwInputError”中)导入
+LINK : warning LNK4217: 符号“__stdio_common_vsprintf”(在“ libucrtd.lib(output.obj)”中定义)已由“glfw3.lib(win32_joystick.obj)”(函数“_glfwDetectJoystickConnectionWin32”中)导入
+LINK : warning LNK4217: 符号“strcspn”(在“ libucrtd.lib(strcspn.obj)”中定义)已由“glfw3.lib(input.obj)”(函数“glfwUpdateGamepadMappings”中)导入
+LINK : warning LNK4217: 符号“strtoul”(在“ libucrtd.lib(strtox.obj)”中定义)已由“glfw3.lib(input.obj)”(函数“parseMapping”中)导入
+LINK : warning LNK4217: 符号“qsort”(在“ libucrtd.lib(qsort.obj)”中定义)已由“glfw3.lib(monitor.obj)”(函数“refreshVideoModes”中)导入
+LINK : warning LNK4217: 符号“qsort”(在“ libucrtd.lib(qsort.obj)”中定义)已由“glfw3.lib(win32_joystick.obj)”(函数“deviceCallback”中)导入
+main.obj : error LNK2019: 无法解析的外部符号 gladLoadGLLoader，函数 main 中引用了该符号
+main.obj : error LNK2001: 无法解析的外部符号 glad_glViewport
+glfw3.lib(init.obj) : error LNK2019: 无法解析的外部符号 __imp_strtok，函数 _glfwParseUriList 中引用了该符号
+glfw3.lib(init.obj) : error LNK2019: 无法解析的外部符号 __imp_realloc，函数 defaultReallocate 中引用了该符号
+glfw3.lib(window.obj) : error LNK2019: 无法解析的外部符号 __imp_strncpy，函数 glfwWindowHintString 中引用了该符号
+glfw3.lib(input.obj) : error LNK2001: 无法解析的外部符号 __imp_strncpy
+glfw3.lib(monitor.obj) : error LNK2001: 无法解析的外部符号 __imp_strncpy
+glfw3.lib(win32_joystick.obj) : error LNK2001: 无法解析的外部符号 __imp_strncpy
+glfw3.lib(context.obj) : error LNK2019: 无法解析的外部符号 __imp___stdio_common_vsscanf，函数 sscanf 中引用了该符号
+glfw3.lib(input.obj) : error LNK2019: 无法解析的外部符号 __imp_strspn，函数 glfwUpdateGamepadMappings 中引用了该符号
+glfw3.lib(input.obj) : error LNK2019: 无法解析的外部符号 __imp_fmaxf，函数 glfwGetGamepadState 中引用了该符号
+glfw3.lib(input.obj) : error LNK2019: 无法解析的外部符号 __imp_fminf，函数 glfwGetGamepadState 中引用了该符号
+glfw3.lib(monitor.obj) : error LNK2001: 无法解析的外部符号 __imp_fminf
+glfw3.lib(null_monitor.obj) : error LNK2001: 无法解析的外部符号 __imp_fminf
+C:\Users\HP\Desktop\Game\x64\Debug\Game.exe : fatal error LNK1120: 9 个无法解析的外部命令
