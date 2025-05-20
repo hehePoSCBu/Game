@@ -1,3 +1,3 @@
 # Game
 
-This is a game.It use SDL3 and OpenGL.
+This is a game.It use SDL3.
