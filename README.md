@@ -1,3 +1,3 @@
 # Game
 
-This is a game.It use OpenGL.It use libraries:GLFW,GLAD.
+This is a game.It use OpenGL.It is a shoot game.
