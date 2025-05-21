@@ -1,3 +1,3 @@
 # Game
 
-This is a game.It use OpenGL.It is a shoot game.
+This is a game.It use OpenGL Graphics API.It is a shoot game.
