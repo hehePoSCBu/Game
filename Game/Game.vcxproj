@@ -24,8 +24,10 @@
     <ClCompile Include="stb_image.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shader\shader.frag" />
-    <None Include="Shader\shader.vert" />
+    <None Include="Shader\fragmentShader\lightShader.frag" />
+    <None Include="Shader\vertexShader\lightShader.vert" />
+    <None Include="Shader\fragmentShader\shader.frag" />
+    <None Include="Shader\vertexShader\shader.vert" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="camera.h" />
