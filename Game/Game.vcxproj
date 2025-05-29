@@ -24,12 +24,6 @@
     <ClCompile Include="stb_image.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shader\fragmentShader\lightShader.frag" />
-    <None Include="Shader\vertexShader\lightShader.vert" />
-    <None Include="Shader\fragmentShader\shader.frag" />
-    <None Include="Shader\vertexShader\shader.vert" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="camera.h" />
     <ClInclude Include="mesh.h" />
     <ClInclude Include="model.h" />
@@ -90,6 +84,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
     <IntDir>$(Platform)bin-int\$(Configuration)\</IntDir>
+    <LibraryPath>C:\Users\HP\Desktop\Game\ThirdParty\glfw\lib;C:\Users\HP\Desktop\Game\ThirdParty\assimp\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
