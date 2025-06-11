@@ -39,10 +39,7 @@
     <None Include="Shader\fragmentShader\lightShader.frag" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="shader.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="camera.h">
+    <ClInclude Include="App.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

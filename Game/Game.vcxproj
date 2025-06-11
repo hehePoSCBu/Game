@@ -30,8 +30,7 @@
     <None Include="Shader\vertexShader\shader.vert" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="camera.h" />
-    <ClInclude Include="shader.h" />
+    <ClInclude Include="App.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
