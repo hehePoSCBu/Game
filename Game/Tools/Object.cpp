@@ -1,11 +1,11 @@
 #include"Object.h"
 
-Player::Player()
+Entity::Entity()
 {
 	components = {};
 }
 
-bool Player::addComponent(Component_type type_)
+bool Entity::addComponent(Component_type type_)
 {
 	Component* c = new Component(type_);
 	if (c == NULL)
@@ -16,6 +16,6 @@ bool Player::addComponent(Component_type type_)
 	return true;
 }
 
-Player::~Player()
+Entity::~Entity()
 {
 }

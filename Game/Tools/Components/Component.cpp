@@ -2,7 +2,7 @@
 
 Component::Component(Component_type type)
 {
-	type = type;
+	this->type = type;
 }
 
 void Component::onEnable()

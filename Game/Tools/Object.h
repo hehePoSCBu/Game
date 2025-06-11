@@ -2,12 +2,12 @@
 #include"Components/Component.h"
 #include <vector>
 
-class Player
+class Entity
 {
 public:
-	Player();
+	Entity();
 	bool addComponent(Component_type type_);
-	~Player();
+	~Entity();
 private:
 	std::vector<Component*> components;
 };
